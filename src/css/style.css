@@ -1,0 +1,35 @@
+body {
+    color: #999;
+}
+
+table {
+    margin: auto;
+    width: 500px;
+    background-color: #258b69;
+    color: black;
+    border: 1px solid black;
+}
+
+th {
+    background-color: rgb(139, 203, 255);
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    background-color: rgb(169, 238, 215);
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.sort-ascending::after {
+    content: " \2193";
+
+}
+
+.sort-descending::after {
+    content: " \2191";
+}
+
